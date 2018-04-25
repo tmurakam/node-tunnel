@@ -1,6 +1,6 @@
 {
-  "name": "tunnel",
-  "version": "0.0.5",
+  "name": "tunnel-fork",
+  "version": "0.0.6",
   "description": "Node HTTP/HTTPS Agents for tunneling proxies",
   "keywords": [
     "http",
@@ -9,17 +9,20 @@
     "proxy",
     "tunnel"
   ],
-  "homepage": "https://github.com/koichik/node-tunnel/",
-  "bugs": "https://github.com/koichik/node-tunnel/issues",
+  "homepage": "https://github.com/tmurakam/node-tunnel",
+  "bugs": "https://github.com/tmurakam/node-tunnel/issues",
   "license": "MIT",
   "author": "Koichi Kobayashi <koichik@improvement.jp>",
+  "contributors": [
+    "Takuya Murakami <tmurakam@tmurakam.org>"
+  ],
   "main": "./index.js",
   "directories": {
     "lib": "./lib"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/koichik/node-tunnel.git"
+    "url": "https://github.com/tmurakam/node-tunnel.git"
   },
   "scripts": {
     "test": "mocha"
