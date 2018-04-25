@@ -1,5 +1,8 @@
 # Changelog
 
+ - 0.0.6-fork (2018/04/25)
+   - fix host header of CONNECT request.
+ 
  - 0.0.5 (2017/06/12)
    - Fix socket leak.
  
